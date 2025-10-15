@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Biodata Kelompok</title>
+<style>
+body{
+    font-family: 'Georgia', serif;
+    background: url('https://uploads.onecompiler.io/43vku9kwx/43xu8ctms/pola-mulus-dengan-bunga-melati.jpg') repeat center center fixed;
+    background-size: auto;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* === HEADER === */
+header{
+    background: rgba(0, 100, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid #2ecc71;
+    color: #ffffff;
+}
+
+/* === NAVBAR === */
+nav{
+    background: rgba(0, 100, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: #2ecc71;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{ text-decoration: underline; }
+
+/* === SECTION === */
+section{
+    padding: 40px 20px 100px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: rgba(0, 50, 0, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+h1{
+    text-align: center;
+    color: #2ecc71;
+    margin-bottom: 40px;
+}
+
+/* === GRID BIAR JADI 3 BARIS 2 KOLOM === */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 50px;
+    justify-items: center;
+}
+
+/* === CARD ANGGOTA === */
+.card{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    color: #006400;
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #2ecc71;
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #2ecc71;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.card h2{ 
+    margin: 10px 0 5px; 
+    color: #006400; 
+}
+.card p{
+    margin: 0;
+    font-weight: bold;
+}
+
+/* === FOOTER === */
+footer {
+    background: rgba(0, 100, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #2ecc71;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>Biodata Anggota Kelompok</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="alasan.html">Alasan</a>
+    <a href="biodata.html">Biodata Kelompok</a>
+    <a href="fakta-unik.html">Fakta Unik</a>
+    <a href="sejarah.html">Sejarah</a>
+</nav>
+
+<section>
+  <h1>Profil Anggota Kelompok</h1>
+  <div class="grid">
+    
+    <div class="card">
+      <a href="bara.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43vmfw67d/IMG_1073.JPG"></a>
+      <h2>Ahmad Ainul Barazikh</h2>
+      <p>Anggota 1</p>
+    </div>
+
+    <div class="card">
+      <a href="sera.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43xqhfzw9/IMG-20250925-WA0007.jpg"></a>
+      <h2>Sera Safitri</h2>
+      <p>Anggota 2</p>
+    </div>
+
+    <div class="card">
+      <a href="qiwam.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43xu8ctms/IMG-20250926-WA0041.jpg"></a>
+      <h2>Qiwami Widhi Satoto</h2>
+      <p>Anggota 3</p>
+    </div>
+
+    <div class="card">
+      <a href="bagas.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43xuperjn/IMG-20250926-WA0039.jpg"></a>
+      <h2>Bhagas Ardhietama</h2>
+      <p>Anggota 4</p>
+    </div>
+
+    <div class="card">
+      <a href="natan.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43xxzd8e3/IMG-20250927-WA0010.jpg"></a>
+      <h2>Mochamad Nathan Putra P</h2>
+      <p>Anggota 5</p>
+    </div>
+
+    <div class="card">
+      <a href="clara.html"><img src="https://uploads.onecompiler.io/43vku9kwx/43xuperjn/IMG-20250926-WA0050.jpg"></a>
+      <h2>Clara Cahya Cantika</h2>
+      <p>Anggota 6</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>&copy; 2025 Website Melati | Kelompok Informatika</footer>
+
+</body>
+</html>
